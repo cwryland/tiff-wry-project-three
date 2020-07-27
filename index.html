@@ -68,16 +68,43 @@
   </form>
 </section>
 
-    <section class=question-3 id=question-3>
-      <p>It's nighttime in the big city, what will your grand adventure be tonight?</p>
-      <a href="#ending" class="w3-btn w3-black">Hang out with friends at Trinity Bellwoods</a>
-      <a href="#ending" class="w3-btn w3-black">Head to the beach for some alone time</a>
-    </section>
+<!--Start of question 3-->
 
-    <section class=ending id=ending>
-      <p>What a great day! Summer in the 6ix is off to a great start. Thanks for playing!</p>
-    </section>
+<section class=question-3>
+  <form action="" class="question" id="question-3">
+    <div class="wrapper">
+      <div class="questionsContainer">
+        <div class="questionsContent">
+          <div class="answersContainer">
+            <h3>It's nighttime in the big city, what will your grand adventure be tonight?</h3>
+              <div class="inputContainer">
+                <div class="answer">
+                  <input type="radio" name="question-3" id="question-3">
+                  <label for="ending-1">Hang out with furry friends at Trinity Bellwoods park</label>
+                <div class="answer">
+                  <input type="radio" name="question-3" id="question-3">
+                  <label for="ending-2">Head to Cherry Beach for some quality alone time</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</section>
 
+<!--Ending section with two possible options-->
+
+<div class="endingResults" id="endingResults">
+  <a href="#quizResults" class="buttonSpecial" id="Submit" ><h5>Hey good looking, what's cooking?'</h5></a>
+</div>
+<section id="Results">
+  <div class="resultsWrapper">
+  </div>
+  </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">   </script>
     <script src="script.js"></script>
   </body>
 </html>
