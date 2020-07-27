@@ -12,7 +12,7 @@ html {
   scroll-behavior: smooth;
 }
 
-p, a {
+h3, p, a {
   font-family: 'Merriweather', serif;
 }
 
