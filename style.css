@@ -98,4 +98,31 @@ input.button {
 }
 
 
+/*Media Queries*/
 
+@media screen and (max-width: 980px)
+  .questionsContainer {
+    justify-content: center;
+  }
+
+  .answersContainer {
+    justify-content: center;
+  }
+
+@media screen and (max-width: 480px)
+.questionsContainer {
+  justify-content: center;
+}
+
+.answersContainer {
+  justify-content: center;
+}
+
+@media screen and (min-width: 380px)
+.questionsContainer {
+  justify-content: center;
+}
+
+.answersContainer {
+  justify-content: center;
+}
