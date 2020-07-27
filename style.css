@@ -21,12 +21,12 @@ body {
   padding: 20px;
 }
 
-h3, p, a {
-  font-family: 'Merriweather', serif;
+h1 {
+  font-size: 4rem;
 }
 
-form input[type='radio'] {
-  display: none;
+h3, p, a {
+  font-family: 'Merriweather', serif;
 }
 
 a {
@@ -51,6 +51,13 @@ form.question {
     justify-content: center;
 }
 
+form,
+header,
+#endingResults,
+.endingResults {
+    min-height: 100vh;
+}
+
 input.button {
   width: 20%;
   padding: 20px;
@@ -68,23 +75,27 @@ input.button {
 }
 
 .question-1, .question-3{
-  display: grid;
+  display: flex;
   background-color: cornsilk;
   width: 100%
 }
 
 .question-2, .ending {
-  display: grid;
+  display: flex;
   background-color: whitesmoke;
   width: 100%;
 }
 
-/*.questionContainer {
+.questionsContainer {
     margin-bottom: 50px;
     margin-top: 50px;
     display: flex;
     align-items: center;
 }
-*/
+
+.answersContainer {
+  text-align: left;
+}
+
 
 
