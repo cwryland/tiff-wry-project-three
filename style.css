@@ -12,8 +12,59 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+  margin: 40px;
+  padding: 20px;
+}
+
 h3, p, a {
   font-family: 'Merriweather', serif;
+}
+
+form input[type='radio'] {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+form input[type='submit'] {
+  display: block;
+  margin: 60px auto;
+  width: 245px;
+  height: 88px;
+  border-radius: 21px;
+  font-size: 2rem;
+  outline: none;
+  margin: 40px;
+}
+
+header,
+form.question {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input.button {
+  width: 20%;
+  padding: 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+}
+
+.buttonSpecial {
+  display: inline-block;
+  padding: 15px 45px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  text-align: center;
 }
 
 .question-1, .question-3{
@@ -27,4 +78,13 @@ h3, p, a {
   background-color: whitesmoke;
   width: 100%;
 }
+
+/*.questionContainer {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+*/
+
 
